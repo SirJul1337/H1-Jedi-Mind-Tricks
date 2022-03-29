@@ -6,14 +6,15 @@ namespace Jedi_Mind_Tricks
     {
         public static void Main()
         {
-            Dictionary<string, int> characters = new Dictionary<string, int>()
+            Dictionary<string, int> person = new Dictionary<string, int>();
+            person["Jørgen"] = 20;
+            person.Add("Niklas", 18);
+            Dictionary<string, bool> characters = new Dictionary<string, bool>()
             {
-            { "Luke", 24 },
-            { "Han", 17 },
-            { "Chewbacca", 500 }
+            { "Luke", true },
+            { "Han", false },
+            { "Chewbacca", true }
             };
-            characters["Jørgen"] = 20;
-            characters.Add("Niklas", 18);
             
             if (characters.Remove("Han"))
             {
