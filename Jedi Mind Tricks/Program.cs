@@ -12,7 +12,7 @@ namespace Jedi_Mind_Tricks
             { "Han", 17 },
             { "Chewbacca", 500 }
             };
-
+            characters["Jørgen"] = 20;
             characters.Add("Niklas", 18);
             
             if (characters.Remove("Han"))
